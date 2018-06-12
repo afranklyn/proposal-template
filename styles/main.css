@@ -1,0 +1,107 @@
+/* Universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Set all site fonts and colors in here */
+
+body{
+  color: #5a5a5a;
+  font-family: 'Lato', sans-serif;
+}
+
+section {
+  padding: 5%;
+}
+
+p {
+  margin-bottom: .8rem;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+ul {
+  list-style-position: inside;
+  font-weight: 300;
+  margin-bottom: 0.8rem;
+}
+
+li {
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: .8rem;
+  color: #e74c3c;
+}
+
+
+h4 {
+  margin-bottom: .8rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 3px solid #e74c3c;
+  width: 50px;
+  margin: 0 0 2rem;
+}
+
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+}
+
+a:hover {
+  color: #5a5a5a;
+}
+
+/* My unique classes */
+
+.banner {
+  min-height: 95vh;
+  background-image: url('../images/palm-background.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  background-color: #5a5a5a;
+  opacity: 0.6;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+.footer {
+  background-color: #e74c3c;
+  color: white;
+  text-align: center;
+}
+
+.footer h2 {
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-weight: 600;
+}
+
+.footer hr {
+  border-bottom: 3px solid white;
+  margin: auto;
+  margin-bottom: 1rem;
+}
